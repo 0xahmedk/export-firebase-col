@@ -1,0 +1,16 @@
+{
+  "name": "firestore-export",
+  "version": "1.0.0",
+  "description": "Export Firebase Firestore collection to JSON",
+  "main": "dist/exportFirestore.js",
+  "scripts": {
+    "build": "tsc",
+    "export": "node dist/index.js"
+  },
+  "dependencies": {
+    "firebase": "^9.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
